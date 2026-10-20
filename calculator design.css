@@ -1,0 +1,22 @@
+#id2522424 {
+    display: grid;
+    grid-template-columns: repeat(5, 6fr);
+    grid-template-rows: auto auto;
+
+    img {
+        grid-column: span 15;
+        grid-row: span 15;
+        width: 100%;
+        height: 100%;
+    }
+
+    p {
+        grid-column: span 15;
+        grid-row: span 15;
+    }
+
+    a {
+        grid-column: span 15;
+        grid-row: span 15;
+    }
+}
